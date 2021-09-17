@@ -1,0 +1,12 @@
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\bin\Debug\net5.0\Entidades.deps.json
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\bin\Debug\net5.0\Entidades.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\bin\Debug\net5.0\Entidades.pdb
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\obj\Debug\net5.0\Entidades.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP1\MiCalculadora\Entidades\obj\Debug\net5.0\Entidades.pdb
