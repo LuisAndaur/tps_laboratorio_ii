@@ -82,7 +82,7 @@ namespace MiCalculadora
                 if (lblResultado.Text == double.MinValue.ToString())
                 {
                     MessageBox.Show("ATENCIÓN!\n No se divide por 0", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                }                
             }
             else
             {
@@ -99,7 +99,6 @@ namespace MiCalculadora
             this.lblResultado.Text = "0";
             this.txtNumero1.Text = "";
             this.txtNumero2.Text = "";
-            this.lstOperaciones.Items.Clear();
             this.cmbOperador.Items.Clear();
             this.cmbOperador.Items.AddRange(new object[] {
             "",
