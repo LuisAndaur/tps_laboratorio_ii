@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Frm_TorneoPRO/1.0.0": {
+        "dependencies": {
+          "Entidades_TorneoPRO": "1.0.0"
+        },
+        "runtime": {
+          "Frm_TorneoPRO.dll": {}
+        }
+      },
+      "Entidades_TorneoPRO/1.0.0": {
+        "runtime": {
+          "Entidades_TorneoPRO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Frm_TorneoPRO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entidades_TorneoPRO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
