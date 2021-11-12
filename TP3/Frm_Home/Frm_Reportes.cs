@@ -16,6 +16,7 @@ namespace Frm_TorneoPRO
     {
         OpenFileDialog openFile = new OpenFileDialog();
         SaveFileDialog saveFile = new SaveFileDialog();
+        private int filtro;
 
         public Frm_Reportes()
         {
@@ -58,20 +59,10 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Jugador.Campeon(TorneoPro.ListaJugadores));
-            }
-            catch (Exception_Archivo eArchivo)
-            {
-                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionJson eSerializacionJson)
-            {
-                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionXml eSerializacionXml)
-            {
-                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                gpb_Listas.Text = "Campeón del torneo";
+                rtb_lista.Text = Jugador.Campeon(TorneoPro.ListaJugadores).ToString();
+                filtro = 1;
+            }            
             catch (Exception auxEx)
             {
                 MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -90,20 +81,10 @@ namespace Frm_TorneoPRO
         {            
             try
             {
-                GuardarComo(Jugador.PorPuntos(TorneoPro.ListaJugadores));
-            }
-            catch (Exception_Archivo eArchivo)
-            {
-                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionJson eSerializacionJson)
-            {
-                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionXml eSerializacionXml)
-            {
-                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                gpb_Listas.Text = "Posiciones del torneo";
+                rtb_lista.Text = TorneoPro.Imprimir(Jugador.PorPuntos(TorneoPro.ListaJugadores));
+                filtro = 2;
+            }            
             catch (Exception auxEx)
             {
                 MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -122,20 +103,10 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Jugador.MasKills(TorneoPro.ListaJugadores));
-            }
-            catch (Exception_Archivo eArchivo)
-            {
-                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionJson eSerializacionJson)
-            {
-                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionXml eSerializacionXml)
-            {
-                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                gpb_Listas.Text = "Top 5: Más Killers";
+                rtb_lista.Text = TorneoPro.Imprimir(Jugador.MasKills(TorneoPro.ListaJugadores));
+                filtro = 3;
+            }            
             catch (Exception auxEx)
             {
                 MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -154,20 +125,10 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Jugador.MasMancos(TorneoPro.ListaJugadores));
-            }
-            catch (Exception_Archivo eArchivo)
-            {
-                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionJson eSerializacionJson)
-            {
-                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionXml eSerializacionXml)
-            {
-                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                gpb_Listas.Text = "Top 5: Más Mancos";
+                rtb_lista.Text = TorneoPro.Imprimir(Jugador.MasMancos(TorneoPro.ListaJugadores));
+                filtro = 4;
+            }            
             catch (Exception auxEx)
             {
                 MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -186,19 +147,9 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Jugador.ListaPrimerTorneo(TorneoPro.ListaJugadores));
-            }
-            catch (Exception_Archivo eArchivo)
-            {
-                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionJson eSerializacionJson)
-            {
-                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionXml eSerializacionXml)
-            {
-                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                gpb_Listas.Text = "Juegan primera vez el torneo";
+                rtb_lista.Text = TorneoPro.Imprimir(Jugador.ListaPrimerTorneo(TorneoPro.ListaJugadores));
+                filtro = 5;
             }
             catch (Exception auxEx)
             {
@@ -218,19 +169,9 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Jugador.Bombarderos(TorneoPro.ListaJugadores));
-            }
-            catch (Exception_Archivo eArchivo)
-            {
-                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionJson eSerializacionJson)
-            {
-                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionXml eSerializacionXml)
-            {
-                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                gpb_Listas.Text = "Top 5: Plantadores de bombas";
+                rtb_lista.Text = TorneoPro.Imprimir(Jugador.Bombarderos(TorneoPro.ListaJugadores));
+                filtro = 6;
             }
             catch (Exception auxEx)
             {
@@ -250,7 +191,10 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Jugador.Rescatistas(TorneoPro.ListaJugadores));
+                gpb_Listas.Text = "Top 5: Rescatistas de rehenes";
+                rtb_lista.Text = TorneoPro.Imprimir(Jugador.Rescatistas(TorneoPro.ListaJugadores));
+                filtro = 7;
+                
             }
             catch (Exception_Archivo eArchivo)
             {
@@ -282,20 +226,10 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Jugador.XxlHeadshots(TorneoPro.ListaJugadores));
-            }
-            catch (Exception_Archivo eArchivo)
-            {
-                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionJson eSerializacionJson)
-            {
-                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionXml eSerializacionXml)
-            {
-                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                gpb_Listas.Text = "XXL: Más headshots";
+                rtb_lista.Text = TorneoPro.Imprimir(Jugador.XxlHeadshots(TorneoPro.ListaJugadores));
+                filtro = 8;
+            }            
             catch (Exception auxEx)
             {
                 MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -314,19 +248,9 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Jugador.MasJoven(TorneoPro.ListaJugadores));                
-            }
-            catch (Exception_Archivo eArchivo)
-            {
-                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionJson eSerializacionJson)
-            {
-                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception_SerializacionXml eSerializacionXml)
-            {
-                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                gpb_Listas.Text = "El menor del torneo";
+                rtb_lista.Text = Jugador.MasJoven(TorneoPro.ListaJugadores).ToString();
+                filtro = 9;               
             }
             catch (Exception auxEx)
             {
@@ -430,6 +354,9 @@ namespace Frm_TorneoPRO
             }
         }
 
+        /// <summary>
+        /// cartel de mensaje si se exporto correctamente
+        /// </summary>
         private void Mensaje()
         {
             Frm_Mensaje mensaje = new Frm_Mensaje("Archivo guardado\nEXITOSAMENTE!");
@@ -437,6 +364,62 @@ namespace Frm_TorneoPRO
             mensaje.ShowDialog();
         }
 
-        
+        /// <summary>
+        /// Exportar los listados filtrados
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btn_Exportar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                switch (filtro)
+                {
+                    case 1:
+                        GuardarComo(Jugador.Campeon(TorneoPro.ListaJugadores));
+                        break;
+                    case 2:
+                        GuardarComo(Jugador.PorPuntos(TorneoPro.ListaJugadores));
+                        break;
+                    case 3:
+                        GuardarComo(Jugador.MasKills(TorneoPro.ListaJugadores));
+                        break;
+                    case 4:
+                        GuardarComo(Jugador.MasMancos(TorneoPro.ListaJugadores));
+                        break;
+                    case 5:
+                        GuardarComo(Jugador.ListaPrimerTorneo(TorneoPro.ListaJugadores));
+                        break;
+                    case 6:
+                        GuardarComo(Jugador.Bombarderos(TorneoPro.ListaJugadores));
+                        break;
+                    case 7:
+                        GuardarComo(Jugador.Rescatistas(TorneoPro.ListaJugadores));
+                        break;
+                    case 8:
+                        GuardarComo(Jugador.XxlHeadshots(TorneoPro.ListaJugadores));
+                        break;
+                    case 9:
+                        GuardarComo(Jugador.MasJoven(TorneoPro.ListaJugadores));
+                        break;
+                }
+            }
+            catch (Exception_Archivo eArchivo)
+            {
+                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception_SerializacionJson eSerializacionJson)
+            {
+                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception_SerializacionXml eSerializacionXml)
+            {
+                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception auxEx)
+            {
+                MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

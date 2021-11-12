@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LuisAndaur\\source\\repos\\TorneoCSGO\\TorneoCSGO\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj": {}
+    "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP3\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LuisAndaur\\source\\repos\\TorneoCSGO\\TorneoCSGO\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj": {
+    "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP3\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisAndaur\\source\\repos\\TorneoCSGO\\TorneoCSGO\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj",
+        "projectUniqueName": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP3\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj",
         "projectName": "Entidades_TorneoPRO",
-        "projectPath": "C:\\Users\\LuisAndaur\\source\\repos\\TorneoCSGO\\TorneoCSGO\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj",
+        "projectPath": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP3\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj",
         "packagesPath": "C:\\Users\\LuisAndaur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisAndaur\\source\\repos\\TorneoCSGO\\TorneoCSGO\\Entidades_TorneoPRO\\obj\\",
+        "outputPath": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP3\\Entidades_TorneoPRO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

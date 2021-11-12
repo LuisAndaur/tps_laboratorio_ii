@@ -129,6 +129,28 @@ namespace Frm_TorneoPRO
             sonidoEntradaCarga.PlayLooping();
         }
 
-        
+        /// <summary>
+        /// Inicia la musica de fondo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void pcb_ConAudio_Click(object sender, EventArgs e)
+        {
+            sonidoEntradaCarga.Stop();            
+            pcb_ConAudio.Visible = false;
+            pcb_SinAudio.Visible = true;
+        }
+
+        /// <summary>
+        /// Silencia la musica de fondo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void pcb_SinAudio_Click(object sender, EventArgs e)
+        {
+            sonidoEntradaCarga.PlayLooping();
+            pcb_ConAudio.Visible = true;
+            pcb_SinAudio.Visible = false;            
+        }
     }
 }

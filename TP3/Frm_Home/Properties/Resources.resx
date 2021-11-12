@@ -127,6 +127,12 @@
   <data name="fondo_Mesa_de_trabajo_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondo_Mesa de trabajo 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconos_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconos-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo_CSGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo-CSGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

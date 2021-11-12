@@ -37,9 +37,13 @@ namespace Frm_TorneoPRO
             this.btn_Reportes = new System.Windows.Forms.Button();
             this.btn_Salir = new System.Windows.Forms.Button();
             this.btn_SimularTorneo = new System.Windows.Forms.Button();
+            this.pcb_ConAudio = new System.Windows.Forms.PictureBox();
+            this.pcb_SinAudio = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb_ConAudio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb_SinAudio)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -140,12 +144,37 @@ namespace Frm_TorneoPRO
             this.btn_SimularTorneo.UseVisualStyleBackColor = false;
             this.btn_SimularTorneo.Click += new System.EventHandler(this.btn_SimularTorneo_Click);
             // 
+            // pcb_ConAudio
+            // 
+            this.pcb_ConAudio.Image = global::Frm_TorneoPRO.Properties.Resources.iconos_02;
+            this.pcb_ConAudio.Location = new System.Drawing.Point(53, 168);
+            this.pcb_ConAudio.Name = "pcb_ConAudio";
+            this.pcb_ConAudio.Size = new System.Drawing.Size(34, 34);
+            this.pcb_ConAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcb_ConAudio.TabIndex = 5;
+            this.pcb_ConAudio.TabStop = false;
+            this.pcb_ConAudio.Click += new System.EventHandler(this.pcb_ConAudio_Click);
+            // 
+            // pcb_SinAudio
+            // 
+            this.pcb_SinAudio.Image = global::Frm_TorneoPRO.Properties.Resources.iconos;
+            this.pcb_SinAudio.Location = new System.Drawing.Point(53, 168);
+            this.pcb_SinAudio.Name = "pcb_SinAudio";
+            this.pcb_SinAudio.Size = new System.Drawing.Size(34, 34);
+            this.pcb_SinAudio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcb_SinAudio.TabIndex = 6;
+            this.pcb_SinAudio.TabStop = false;
+            this.pcb_SinAudio.Visible = false;
+            this.pcb_SinAudio.Click += new System.EventHandler(this.pcb_SinAudio_Click);
+            // 
             // Frm_Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(80)))), ((int)(((byte)(84)))));
             this.ClientSize = new System.Drawing.Size(840, 595);
+            this.Controls.Add(this.pcb_SinAudio);
+            this.Controls.Add(this.pcb_ConAudio);
             this.Controls.Add(this.btn_SimularTorneo);
             this.Controls.Add(this.btn_Salir);
             this.Controls.Add(this.btn_Reportes);
@@ -165,6 +194,8 @@ namespace Frm_TorneoPRO
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb_ConAudio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb_SinAudio)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -178,6 +209,8 @@ namespace Frm_TorneoPRO
         private System.Windows.Forms.Button btn_Reportes;
         private System.Windows.Forms.Button btn_Salir;
         private System.Windows.Forms.Button btn_SimularTorneo;
+        private System.Windows.Forms.PictureBox pcb_ConAudio;
+        private System.Windows.Forms.PictureBox pcb_SinAudio;
     }
 }
 

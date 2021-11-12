@@ -93,6 +93,26 @@ namespace Frm_TorneoPRO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap iconos {
+            get {
+                object obj = ResourceManager.GetObject("iconos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap iconos_02 {
+            get {
+                object obj = ResourceManager.GetObject("iconos_02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Logo_CSGO {
             get {
                 object obj = ResourceManager.GetObject("Logo_CSGO", resourceCulture);

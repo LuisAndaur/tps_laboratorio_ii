@@ -77,3 +77,29 @@ C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Frm_Home\obj\Debug\net5.0-window
 C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Reportes.resources
 C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Simulador.resources
 C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.CopyComplete
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.exe
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.deps.json
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.runtimeconfig.json
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.runtimeconfig.dev.json
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\ref\Frm_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.pdb
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\Entidades_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\bin\Debug\net5.0-windows\Entidades_TorneoPRO.pdb
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.AssemblyReference.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Administrador.resources
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Home.resources
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Mensaje.resources
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_ModalABM.resources
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Reportes.resources
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Simulador.resources
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Properties.Resources.resources
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.GenerateResource.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.AssemblyInfoInputs.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.AssemblyInfo.cs
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.CoreCompileInputs.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\ref\Frm_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.pdb
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP3\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.genruntimeconfig.cache

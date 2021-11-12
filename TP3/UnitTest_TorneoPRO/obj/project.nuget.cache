@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TI+zn4RYgzqyfjGoSQ6Zrqa0HeuiqzrPydx/r1oJRsKxaRt14fpSSGLEn6TmSonKecbjh39uwM9fnLtZJPbw1A==",
+  "dgSpecHash": "xMviADCukMt4ICwk6hAprODtel28aT1QwYVgi+LgS7szjRD1W1WXWoFtHQCDH7xhWhB7zeiuxmuG+Kqx1Fsc4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LuisAndaur\\source\\repos\\TorneoCSGO\\TorneoCSGO\\UnitTest_TorneoPRO\\UnitTest_TorneoPRO.csproj",
+  "projectFilePath": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP3\\UnitTest_TorneoPRO\\UnitTest_TorneoPRO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
