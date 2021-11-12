@@ -96,5 +96,98 @@ namespace Entidades_TorneoPRO
             this.puntos += acumuladorPuntos;
         }
 
+        public static string AnalisisDeDatos()
+        {
+            string[] titulo = { "Genero:", "Si:", "No:", "de 12 a 29:",
+                         "de 30 a 49:", "+ 50:", "Latinos", "No latinos", "Kills:", "Muertes:", "Headshots:", "Bombas:", "Rehenes:" };
+            int female = 0;
+            int male = 0;
+            int primerTorneoSiFem = 0;
+            int primerTorneoNoFem = 0;
+            int primerTorneoSiMen = 0;
+            int primerTorneoNoMen = 0;
+            int rangoEstarioFemUno = 0;
+            int rangoEstarioMenUno = 0;
+            int rangoEstarioFemDos = 0;
+            int rangoEstarioMenDos = 0;
+            int rangoEstarioFemTres = 0;
+            int rangoEstarioMenTres = 0;
+            int killsF = 0;
+            int muertesF = 0;
+            int headshotsF = 0;
+            int bombasF = 0;
+            int rehenesF = 0;
+            int killsM = 0;
+            int muertesM = 0;
+            int headshotsM = 0;
+            int bombasM = 0;
+            int rehenesM = 0;
+            int nacionalidadLF = 0;
+            int nacionalidadNLF = 0;
+            int nacionalidadLM = 0;
+            int nacionalidadNLM = 0;
+
+            foreach (Jugador item in TorneoPro.ListaJugadores)
+            {
+                if (item.Genero == "Female")
+                {
+                    female++;
+                    if (item.Edad > 11 && item.Edad < 30) rangoEstarioFemUno++;
+                    if (item.Edad > 29 && item.Edad < 50) rangoEstarioFemDos++;
+                    if (item.Edad > 49 ) rangoEstarioFemTres++;
+                    if (item.PrimerTorneo == true) primerTorneoSiFem++;
+                    if (item.Nacionalidad == "Argentina" || item.Nacionalidad == "Brasil" || item.Nacionalidad == "Colombia" || item.Nacionalidad == "Mexico" || item.Nacionalidad == "Uruguay") nacionalidadLF++;
+
+                    killsF += item.Estadistica.Kills;
+                    muertesF += item.Estadistica.Muerte;
+                    headshotsF += item.Estadistica.Headshot;
+                    bombasF += item.Estadistica.Bombas;
+                    rehenesF += item.Estadistica.Rehenes;
+                    if (item.Nacionalidad == "Argentina" || item.Nacionalidad == "Brasil" || item.Nacionalidad == "Colombia" || item.Nacionalidad == "Mexico" || item.Nacionalidad == "Uruguay") nacionalidadLM++;
+                }
+                else
+                {
+                    if (item.Edad > 11 && item.Edad < 30) rangoEstarioMenUno++;
+                    if (item.Edad > 29 && item.Edad < 50) rangoEstarioMenDos++;
+                    if (item.Edad > 49) rangoEstarioMenTres++;
+                    if (item.PrimerTorneo == true) primerTorneoSiMen++;
+                    killsM += item.Estadistica.Kills;
+                    muertesM += item.Estadistica.Muerte;
+                    headshotsM += item.Estadistica.Headshot;
+                    bombasM += item.Estadistica.Bombas;
+                    rehenesM += item.Estadistica.Rehenes;
+                }
+            }
+
+            male = TorneoPro.ListaJugadores.Count - female;
+            primerTorneoNoFem = female - primerTorneoSiFem;
+            primerTorneoNoMen = male - primerTorneoSiMen;
+            nacionalidadNLF = female - nacionalidadLF;
+            nacionalidadNLM = male - nacionalidadLM;
+
+            StringBuilder analisis = new StringBuilder();
+            analisis.AppendLine(String.Format("*Participacion total del torneo  -------------- {0,4}", TorneoPro.ListaJugadores.Count));
+            analisis.AppendLine(String.Format("\n*Categoria---------------Female----||-----Male------"));
+            analisis.AppendLine(String.Format("\n{0,-20}{1,4} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[0], female, (float)female * 100 / TorneoPro.ListaJugadores.Count, male, (float)male * 100 / TorneoPro.ListaJugadores.Count));
+            analisis.AppendLine(String.Format("\n*Primer torneo -------------------------------------"));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[1], primerTorneoSiFem, (float)primerTorneoSiFem * 100 / female, primerTorneoSiMen, (float)primerTorneoSiMen * 100 / male));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[2], primerTorneoNoFem, (float)primerTorneoNoFem * 100 / female, primerTorneoNoMen, (float)primerTorneoNoMen * 100 / male));
+            analisis.AppendLine(String.Format("\n*Rango etario --------------------------------------"));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[3], rangoEstarioFemUno, (float)rangoEstarioFemUno * 100 / female, rangoEstarioMenUno, (float)rangoEstarioMenUno * 100 / male));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[4], rangoEstarioFemDos, (float)rangoEstarioFemDos * 100 / female, rangoEstarioMenDos, (float)rangoEstarioMenDos * 100 / male));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[5], rangoEstarioFemTres, (float)rangoEstarioFemTres * 100 / female, rangoEstarioMenTres, (float)rangoEstarioMenTres * 100 / male));
+            analisis.AppendLine(String.Format("\n*Nacionalidad --------------------------------------"));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[6], nacionalidadLF, (float)nacionalidadLF * 100 / female, nacionalidadLM, (float)nacionalidadLM * 100 / male));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[7], nacionalidadNLF, (float)nacionalidadNLF * 100 / female, nacionalidadNLM, (float)nacionalidadNLM * 100 / male));
+            analisis.AppendLine(String.Format("\n*Promedios -----------------------------------------"));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[8], killsF, (float)killsF / TorneoPro.ListaJugadores.Count, killsM, (float)killsM/ TorneoPro.ListaJugadores.Count));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[9], muertesF, (float)muertesF / TorneoPro.ListaJugadores.Count, muertesM, (float)muertesM / TorneoPro.ListaJugadores.Count));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[10], headshotsF, (float)headshotsF / TorneoPro.ListaJugadores.Count, headshotsM, (float)headshotsM / TorneoPro.ListaJugadores.Count));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[11], bombasF, (float)bombasF / TorneoPro.ListaJugadores.Count, bombasM, (float)bombasM / TorneoPro.ListaJugadores.Count));
+            analisis.AppendLine(String.Format("{0,-20}{1,4} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[12], rehenesF, (float)rehenesF / TorneoPro.ListaJugadores.Count, rehenesM, (float)rehenesM / TorneoPro.ListaJugadores.Count));
+            analisis.AppendLine(String.Format("\n----------------------------------------------------"));
+
+            return analisis.ToString();
+        }
     }
 }

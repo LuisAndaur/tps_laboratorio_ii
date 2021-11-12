@@ -35,6 +35,8 @@ namespace Frm_TorneoPRO
             lbl_NombreTorneo.Text = TorneoPro.NombreTorneo;
             lbl_Patrocinio.Text = TorneoPro.Patrocinio;
             lbl_Premio.Text = $"U$D{TorneoPro.Premio.ToString()}";
+            rtb_Analisis.Text = Estadistica.AnalisisDeDatos();
+
         }
 
         /// <summary>
@@ -355,6 +357,54 @@ namespace Frm_TorneoPRO
         }
 
         /// <summary>
+        /// Abre la opcion para poner el nombre, elegir la extension y guardar el archivo en la ruta seleccionada
+        /// </summary>
+        /// <param name="tipo">tipo parametro string</param>
+        private void GuardarComo(string tipo)
+        {
+            this.saveFile.FileName = string.Empty;
+            this.saveFile.ShowDialog();
+            if (this.saveFile.FileName != String.Empty)
+            {
+                if (Path.GetExtension(this.saveFile.FileName) == ".txt")
+                {
+                    try
+                    {
+                        Archivo<string>.Escribir(tipo, this.saveFile.FileName);
+                    }
+                    catch (Exception_Archivo ex)
+                    {
+                        MessageBox.Show(ex.Message, "Error en archivo txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else if (Path.GetExtension(this.saveFile.FileName) == ".json")
+                {
+                    try
+                    {
+                        SerializacionJson<string>.Escribir(tipo, this.saveFile.FileName);
+                    }
+                    catch (Exception_SerializacionJson ex)
+                    {
+                        MessageBox.Show(ex.Message, "Error en archivo json", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else if (Path.GetExtension(this.saveFile.FileName) == ".xml")
+                {
+                    try
+                    {
+                        SerializacionXml<string>.Escribir(tipo, this.saveFile.FileName);
+                    }
+                    catch (Exception_SerializacionXml ex)
+                    {
+                        MessageBox.Show(ex.Message, "Error en archivo xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                this.openFile.FileName = this.saveFile.FileName;
+                Mensaje();
+            }
+        }
+
+        /// <summary>
         /// cartel de mensaje si se exporto correctamente
         /// </summary>
         private void Mensaje()
@@ -403,6 +453,30 @@ namespace Frm_TorneoPRO
                         GuardarComo(Jugador.MasJoven(TorneoPro.ListaJugadores));
                         break;
                 }
+            }
+            catch (Exception_Archivo eArchivo)
+            {
+                MessageBox.Show(eArchivo.Message, "ERROR al guardar txt", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception_SerializacionJson eSerializacionJson)
+            {
+                MessageBox.Show(eSerializacionJson.Message, "ERROR al guardar json", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception_SerializacionXml eSerializacionXml)
+            {
+                MessageBox.Show(eSerializacionXml.Message, "ERROR al guardar xml", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception auxEx)
+            {
+                MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btn_ExportarAnálisis_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                GuardarComo(Estadistica.AnalisisDeDatos());
             }
             catch (Exception_Archivo eArchivo)
             {

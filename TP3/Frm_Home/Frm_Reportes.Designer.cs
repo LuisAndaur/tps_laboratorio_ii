@@ -30,7 +30,6 @@ namespace Frm_TorneoPRO
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Reportes));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Volver = new System.Windows.Forms.Button();
             this.lbl_Titulo = new System.Windows.Forms.Label();
             this.btn_Campeon = new System.Windows.Forms.Button();
@@ -50,20 +49,12 @@ namespace Frm_TorneoPRO
             this.gpb_Filtros = new System.Windows.Forms.GroupBox();
             this.btn_Exportar = new System.Windows.Forms.Button();
             this.btn_ExportarAnálisis = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rtb_Analisis = new System.Windows.Forms.RichTextBox();
             this.gpb_Listas.SuspendLayout();
             this.gpb_Filtros.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Frm_TorneoPRO.Properties.Resources.pngaaa_com_1190514;
-            this.pictureBox1.Location = new System.Drawing.Point(377, -2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(291, 204);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // btn_Volver
             // 
@@ -261,12 +252,12 @@ namespace Frm_TorneoPRO
             this.lbl_NombreTorneo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_NombreTorneo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.lbl_NombreTorneo.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lbl_NombreTorneo.Location = new System.Drawing.Point(654, 24);
+            this.lbl_NombreTorneo.Location = new System.Drawing.Point(443, 24);
             this.lbl_NombreTorneo.Name = "lbl_NombreTorneo";
-            this.lbl_NombreTorneo.Size = new System.Drawing.Size(160, 26);
+            this.lbl_NombreTorneo.Size = new System.Drawing.Size(362, 26);
             this.lbl_NombreTorneo.TabIndex = 11;
             this.lbl_NombreTorneo.Text = "TorneoPRO : CSGO";
-            this.lbl_NombreTorneo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbl_NombreTorneo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_Patrocinio
             // 
@@ -274,12 +265,12 @@ namespace Frm_TorneoPRO
             this.lbl_Patrocinio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Patrocinio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.lbl_Patrocinio.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lbl_Patrocinio.Location = new System.Drawing.Point(654, 50);
+            this.lbl_Patrocinio.Location = new System.Drawing.Point(443, 50);
             this.lbl_Patrocinio.Name = "lbl_Patrocinio";
-            this.lbl_Patrocinio.Size = new System.Drawing.Size(160, 26);
+            this.lbl_Patrocinio.Size = new System.Drawing.Size(362, 26);
             this.lbl_Patrocinio.TabIndex = 12;
             this.lbl_Patrocinio.Text = "patrocinio";
-            this.lbl_Patrocinio.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbl_Patrocinio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_Premio
             // 
@@ -287,20 +278,21 @@ namespace Frm_TorneoPRO
             this.lbl_Premio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Premio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.lbl_Premio.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lbl_Premio.Location = new System.Drawing.Point(654, 80);
+            this.lbl_Premio.Location = new System.Drawing.Point(443, 80);
             this.lbl_Premio.Name = "lbl_Premio";
-            this.lbl_Premio.Size = new System.Drawing.Size(160, 26);
+            this.lbl_Premio.Size = new System.Drawing.Size(362, 26);
             this.lbl_Premio.TabIndex = 13;
             this.lbl_Premio.Text = "premio";
-            this.lbl_Premio.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbl_Premio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // rtb_lista
             // 
             this.rtb_lista.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.rtb_lista.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtb_lista.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rtb_lista.Location = new System.Drawing.Point(3, 19);
             this.rtb_lista.Name = "rtb_lista";
-            this.rtb_lista.Size = new System.Drawing.Size(362, 167);
+            this.rtb_lista.Size = new System.Drawing.Size(362, 230);
             this.rtb_lista.TabIndex = 15;
             this.rtb_lista.Text = "";
             // 
@@ -310,7 +302,7 @@ namespace Frm_TorneoPRO
             this.gpb_Listas.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.gpb_Listas.Location = new System.Drawing.Point(6, 136);
             this.gpb_Listas.Name = "gpb_Listas";
-            this.gpb_Listas.Size = new System.Drawing.Size(368, 189);
+            this.gpb_Listas.Size = new System.Drawing.Size(368, 252);
             this.gpb_Listas.TabIndex = 16;
             this.gpb_Listas.TabStop = false;
             this.gpb_Listas.Text = "-----";
@@ -329,9 +321,9 @@ namespace Frm_TorneoPRO
             this.gpb_Filtros.Controls.Add(this.btn_Rescatistas);
             this.gpb_Filtros.Controls.Add(this.btn_Bombarderos);
             this.gpb_Filtros.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.gpb_Filtros.Location = new System.Drawing.Point(434, 200);
+            this.gpb_Filtros.Location = new System.Drawing.Point(434, 131);
             this.gpb_Filtros.Name = "gpb_Filtros";
-            this.gpb_Filtros.Size = new System.Drawing.Size(380, 371);
+            this.gpb_Filtros.Size = new System.Drawing.Size(380, 440);
             this.gpb_Filtros.TabIndex = 17;
             this.gpb_Filtros.TabStop = false;
             this.gpb_Filtros.Text = "Filtros";
@@ -346,7 +338,7 @@ namespace Frm_TorneoPRO
             this.btn_Exportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Exportar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Exportar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_Exportar.Location = new System.Drawing.Point(9, 331);
+            this.btn_Exportar.Location = new System.Drawing.Point(9, 404);
             this.btn_Exportar.Name = "btn_Exportar";
             this.btn_Exportar.Size = new System.Drawing.Size(362, 30);
             this.btn_Exportar.TabIndex = 17;
@@ -370,6 +362,29 @@ namespace Frm_TorneoPRO
             this.btn_ExportarAnálisis.TabIndex = 18;
             this.btn_ExportarAnálisis.Text = "Exportar análisis de datos";
             this.btn_ExportarAnálisis.UseVisualStyleBackColor = false;
+            this.btn_ExportarAnálisis.Click += new System.EventHandler(this.btn_ExportarAnálisis_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rtb_Analisis);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.groupBox1.Location = new System.Drawing.Point(25, 64);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(382, 458);
+            this.groupBox1.TabIndex = 19;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Análisis de datos";
+            // 
+            // rtb_Analisis
+            // 
+            this.rtb_Analisis.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.rtb_Analisis.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtb_Analisis.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rtb_Analisis.Location = new System.Drawing.Point(3, 19);
+            this.rtb_Analisis.Name = "rtb_Analisis";
+            this.rtb_Analisis.Size = new System.Drawing.Size(376, 436);
+            this.rtb_Analisis.TabIndex = 15;
+            this.rtb_Analisis.Text = "";
             // 
             // Frm_Reportes
             // 
@@ -377,11 +392,11 @@ namespace Frm_TorneoPRO
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(840, 595);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_ExportarAnálisis);
             this.Controls.Add(this.gpb_Filtros);
             this.Controls.Add(this.lbl_Titulo);
             this.Controls.Add(this.btn_Volver);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbl_Premio);
             this.Controls.Add(this.lbl_Patrocinio);
             this.Controls.Add(this.lbl_NombreTorneo);
@@ -391,17 +406,15 @@ namespace Frm_TorneoPRO
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Estadistica";
             this.Load += new System.EventHandler(this.Frm_Estadistica_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.gpb_Listas.ResumeLayout(false);
             this.gpb_Filtros.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_Volver;
         private System.Windows.Forms.Label lbl_Titulo;
         private System.Windows.Forms.Button btn_Campeon;
@@ -421,5 +434,7 @@ namespace Frm_TorneoPRO
         private System.Windows.Forms.GroupBox gpb_Filtros;
         private System.Windows.Forms.Button btn_Exportar;
         private System.Windows.Forms.Button btn_ExportarAnálisis;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RichTextBox rtb_Analisis;
     }
 }
