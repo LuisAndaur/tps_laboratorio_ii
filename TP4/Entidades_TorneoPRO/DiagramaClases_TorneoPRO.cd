@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Entidades_TorneoPRO.Archivo&lt;T&gt;">
+    <Position X="22.75" Y="17.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Archivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_TorneoPRO.Bomba">
+    <Position X="2.75" Y="18" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAAA=</HashCode>
+      <FileName>Bomba.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Entidades_TorneoPRO.Deathmatch">
+    <Position X="6.5" Y="18" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Deathmatch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Entidades_TorneoPRO.Estadistica">
+    <Position X="26.25" Y="13" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>EACAABAAABAIAAAQCAAAAAAAAAAAAAQICAAAAgAAgAI=</HashCode>
+      <FileName>Estadistica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_TorneoPRO.Jugador">
+    <Position X="14.25" Y="13" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>ChEQAAAAAQGAAACEAgIAgCIAAQwiAgAAAAIAAAEBAAQ=</HashCode>
+      <FileName>Jugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_TorneoPRO.Mapa">
+    <Position X="6.5" Y="13" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Entidades_TorneoPRO.Mapa.ETipo">
+        <TypeIdentifier>
+          <NewMemberFileName>Mapa.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_TorneoPRO.Partida">
+    <Position X="22.75" Y="13" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAQAAAAAAAgAAAAAACAQAAIAAAAA=</HashCode>
+      <FileName>Partida.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Entidades_TorneoPRO.Rehenes">
+    <Position X="10.25" Y="18" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Rehenes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Entidades_TorneoPRO.SerializacionJson&lt;T&gt;">
+    <Position X="25.75" Y="17.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>SerializacionJson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_TorneoPRO.SerializacionXml&lt;T&gt;">
+    <Position X="28.5" Y="17.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>SerializacionXml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_TorneoPRO.TorneoPro">
+    <Position X="14" Y="5.75" Width="9" />
+    <TypeIdentifier>
+      <HashCode>EAMAAJACAAAAIgAEBCAABAJAAAABRABAAAAIAAABAAA=</HashCode>
+      <FileName>TorneoPro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Entidades_TorneoPRO.IAwp">
+    <Position X="6.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAwp.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Entidades_TorneoPRO.IBomba">
+    <Position X="8.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>IBomba.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Entidades_TorneoPRO.IRehenes">
+    <Position X="10.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>IRehenes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
