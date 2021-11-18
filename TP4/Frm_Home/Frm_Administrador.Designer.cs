@@ -34,12 +34,6 @@ namespace Frm_TorneoPRO
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Administrador));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgv_ListaJugadores = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_Volver = new System.Windows.Forms.Button();
-            this.btn_Eliminar = new System.Windows.Forms.Button();
-            this.btn_Editar = new System.Windows.Forms.Button();
-            this.btn_Agregar = new System.Windows.Forms.Button();
             this.NroJugador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Edad = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,6 +41,13 @@ namespace Frm_TorneoPRO
             this.Nacionalidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Especialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PrimerTorneo = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_Volver = new System.Windows.Forms.Button();
+            this.btn_Eliminar = new System.Windows.Forms.Button();
+            this.btn_Editar = new System.Windows.Forms.Button();
+            this.btn_Agregar = new System.Windows.Forms.Button();
+            this.lbl_Cargando = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListaJugadores)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -54,6 +55,7 @@ namespace Frm_TorneoPRO
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lbl_Cargando);
             this.groupBox1.Controls.Add(this.dgv_ListaJugadores);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(12, 62);
@@ -111,6 +113,50 @@ namespace Frm_TorneoPRO
             this.dgv_ListaJugadores.Size = new System.Drawing.Size(810, 497);
             this.dgv_ListaJugadores.TabIndex = 0;
             this.dgv_ListaJugadores.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListaJugadores_CellClick);
+            // 
+            // NroJugador
+            // 
+            this.NroJugador.HeaderText = "Nro. Jugador";
+            this.NroJugador.Name = "NroJugador";
+            this.NroJugador.ReadOnly = true;
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            // 
+            // Edad
+            // 
+            this.Edad.HeaderText = "Edad";
+            this.Edad.Name = "Edad";
+            this.Edad.ReadOnly = true;
+            // 
+            // Genero
+            // 
+            this.Genero.HeaderText = "Genero";
+            this.Genero.Name = "Genero";
+            this.Genero.ReadOnly = true;
+            // 
+            // Nacionalidad
+            // 
+            this.Nacionalidad.HeaderText = "Nacionalidad";
+            this.Nacionalidad.Name = "Nacionalidad";
+            this.Nacionalidad.ReadOnly = true;
+            // 
+            // Especialidad
+            // 
+            this.Especialidad.HeaderText = "Especialidad";
+            this.Especialidad.Name = "Especialidad";
+            this.Especialidad.ReadOnly = true;
+            // 
+            // PrimerTorneo
+            // 
+            this.PrimerTorneo.HeaderText = "Primer Torneo";
+            this.PrimerTorneo.Name = "PrimerTorneo";
+            this.PrimerTorneo.ReadOnly = true;
+            this.PrimerTorneo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.PrimerTorneo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // label1
             // 
@@ -201,49 +247,16 @@ namespace Frm_TorneoPRO
             this.btn_Agregar.UseVisualStyleBackColor = false;
             this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
-            // NroJugador
+            // lbl_Cargando
             // 
-            this.NroJugador.HeaderText = "Nro. Jugador";
-            this.NroJugador.Name = "NroJugador";
-            this.NroJugador.ReadOnly = true;
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
-            // 
-            // Edad
-            // 
-            this.Edad.HeaderText = "Edad";
-            this.Edad.Name = "Edad";
-            this.Edad.ReadOnly = true;
-            // 
-            // Genero
-            // 
-            this.Genero.HeaderText = "Genero";
-            this.Genero.Name = "Genero";
-            this.Genero.ReadOnly = true;
-            // 
-            // Nacionalidad
-            // 
-            this.Nacionalidad.HeaderText = "Nacionalidad";
-            this.Nacionalidad.Name = "Nacionalidad";
-            this.Nacionalidad.ReadOnly = true;
-            // 
-            // Especialidad
-            // 
-            this.Especialidad.HeaderText = "Especialidad";
-            this.Especialidad.Name = "Especialidad";
-            this.Especialidad.ReadOnly = true;
-            // 
-            // PrimerTorneo
-            // 
-            this.PrimerTorneo.HeaderText = "Primer Torneo";
-            this.PrimerTorneo.Name = "PrimerTorneo";
-            this.PrimerTorneo.ReadOnly = true;
-            this.PrimerTorneo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.PrimerTorneo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.lbl_Cargando.AutoSize = true;
+            this.lbl_Cargando.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Cargando.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.lbl_Cargando.Location = new System.Drawing.Point(358, 264);
+            this.lbl_Cargando.Name = "lbl_Cargando";
+            this.lbl_Cargando.Size = new System.Drawing.Size(96, 21);
+            this.lbl_Cargando.TabIndex = 7;
+            this.lbl_Cargando.Text = "Cargando...";
             // 
             // Frm_Administrador
             // 
@@ -265,6 +278,7 @@ namespace Frm_TorneoPRO
             this.Text = "Frm_Administrador";
             this.Load += new System.EventHandler(this.Frm_Administrador_Load);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListaJugadores)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -289,5 +303,6 @@ namespace Frm_TorneoPRO
         private System.Windows.Forms.DataGridViewTextBoxColumn Nacionalidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Especialidad;
         private System.Windows.Forms.DataGridViewCheckBoxColumn PrimerTorneo;
+        private System.Windows.Forms.Label lbl_Cargando;
     }
 }

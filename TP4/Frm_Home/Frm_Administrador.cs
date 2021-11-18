@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades_TorneoPRO;
@@ -29,12 +25,11 @@ namespace Frm_TorneoPRO
         /// <param name="sender"></param>
         /// <param name="e"></param>
         /// <exception cref="Exception_SerializacionJson">Error en serializacion o deserializacion de un json</exception>
-        private void Frm_Administrador_Load(object sender, EventArgs e)
+        private async void Frm_Administrador_Load(object sender, EventArgs e)
         {
             try
             {
-                listaJugadores = TorneoPro.ListaJugadores;
-                RecargarListaJugadores();
+                await Task.Run(CargarJugadores);
             }
             catch (Exception_SerializacionJson eSerializacion)
             {
@@ -146,17 +141,52 @@ namespace Frm_TorneoPRO
         /// </summary>
         private void RecargarListaJugadores()
         {
-            dgv_ListaJugadores.Rows.Clear();
-            foreach (Jugador item in listaJugadores)
+            if (this.dgv_ListaJugadores.InvokeRequired)
             {
-                indice = dgv_ListaJugadores.Rows.Add();
-                dgv_ListaJugadores.Rows[indice].Cells[0].Value = item.NroJugador;
-                dgv_ListaJugadores.Rows[indice].Cells[1].Value = item.Nombre;
-                dgv_ListaJugadores.Rows[indice].Cells[2].Value = item.Edad;
-                dgv_ListaJugadores.Rows[indice].Cells[3].Value = item.Genero;
-                dgv_ListaJugadores.Rows[indice].Cells[4].Value = item.Nacionalidad;
-                dgv_ListaJugadores.Rows[indice].Cells[5].Value = item.Especialidad;
-                dgv_ListaJugadores.Rows[indice].Cells[6].Value = item.PrimerTorneo;
+                this.dgv_ListaJugadores.BeginInvoke((MethodInvoker)delegate ()
+                {
+                    dgv_ListaJugadores.Rows.Clear();
+                    foreach (Jugador item in listaJugadores)
+                    {
+                        indice = dgv_ListaJugadores.Rows.Add();
+                        dgv_ListaJugadores.Rows[indice].Cells[0].Value = item.NroJugador;
+                        dgv_ListaJugadores.Rows[indice].Cells[1].Value = item.Nombre;
+                        dgv_ListaJugadores.Rows[indice].Cells[2].Value = item.Edad;
+                        dgv_ListaJugadores.Rows[indice].Cells[3].Value = item.Genero;
+                        dgv_ListaJugadores.Rows[indice].Cells[4].Value = item.Nacionalidad;
+                        dgv_ListaJugadores.Rows[indice].Cells[5].Value = item.Especialidad;
+                        dgv_ListaJugadores.Rows[indice].Cells[6].Value = item.PrimerTorneo;
+                    }
+                });
+            }
+            else 
+            {
+                dgv_ListaJugadores.Rows.Clear();
+                foreach (Jugador item in listaJugadores)
+                {
+                    indice = dgv_ListaJugadores.Rows.Add();
+                    dgv_ListaJugadores.Rows[indice].Cells[0].Value = item.NroJugador;
+                    dgv_ListaJugadores.Rows[indice].Cells[1].Value = item.Nombre;
+                    dgv_ListaJugadores.Rows[indice].Cells[2].Value = item.Edad;
+                    dgv_ListaJugadores.Rows[indice].Cells[3].Value = item.Genero;
+                    dgv_ListaJugadores.Rows[indice].Cells[4].Value = item.Nacionalidad;
+                    dgv_ListaJugadores.Rows[indice].Cells[5].Value = item.Especialidad;
+                    dgv_ListaJugadores.Rows[indice].Cells[6].Value = item.PrimerTorneo;
+                }
+            }
+        }
+
+        private void CargarJugadores()
+        {
+            listaJugadores = TorneoPro.ListaJugadores;
+            Thread.Sleep(3000);
+            RecargarListaJugadores();
+            if (this.lbl_Cargando.InvokeRequired)
+            {
+                this.lbl_Cargando.BeginInvoke((MethodInvoker)delegate ()
+                {
+                    lbl_Cargando.Visible = false;
+                });
             }
         }
     }

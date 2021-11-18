@@ -158,7 +158,6 @@ D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.AssemblyInfoInputs.cache
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.AssemblyInfo.cs
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.CoreCompileInputs.cache
-D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.CopyComplete
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.dll
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\ref\Frm_TorneoPRO.dll
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.pdb

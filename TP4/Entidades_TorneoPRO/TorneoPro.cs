@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Entidades_TorneoPRO
 {
@@ -10,7 +11,6 @@ namespace Entidades_TorneoPRO
         private static double premio;
         private static string patrocinio;
         private static List<Jugador> listaJugadores;
-        private static List<Jugador> listaJugadoresSql;
         private static List<Deathmatch> mapasDeathmatch;
         private static List<Bomba> mapasBomba;
         private static List<Rehenes> mapasRehenes;
@@ -108,7 +108,6 @@ namespace Entidades_TorneoPRO
             premio = 1000000;
             patrocinio = "EASport";
             listaJugadores = new List<Jugador>();
-            listaJugadoresSql = new List<Jugador>();
             CargarJugadores();
             CargarMapas();
         }
@@ -118,11 +117,14 @@ namespace Entidades_TorneoPRO
         /// </summary>
         private static void CargarJugadores()
         {
-            listaJugadores = SerializacionJson<List<Jugador>>.Leer("listaJugadores.json");
-            listaJugadoresSql = ConexionDB.TraerDatos("select * from jugadores");
-            if (listaJugadores==null)
+            listaJugadores = ConexionDB.TraerDatos("select * from jugadores");
+            if (listaJugadores == null)
             {
-                throw new Exception_SerializacionJson("No se deserializo la lista inicial");
+                listaJugadores = SerializacionJson<List<Jugador>>.Leer("listaJugadores.json");
+                if (listaJugadores == null)
+                {
+                    throw new Exception_SerializacionJson("No se deserializo la lista inicial");
+                }                
             }
         }
 
