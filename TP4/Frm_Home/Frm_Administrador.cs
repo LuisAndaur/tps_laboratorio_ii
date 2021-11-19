@@ -176,6 +176,9 @@ namespace Frm_TorneoPRO
             }
         }
 
+        /// <summary>
+        /// Carga la lista de jugadores
+        /// </summary>
         private void CargarJugadores()
         {
             listaJugadores = TorneoPro.ListaJugadores;

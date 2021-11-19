@@ -478,11 +478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP4\\Test_Consola\\Test_Consola.csproj",
+      "projectUniqueName": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Test_Consola\\Test_Consola.csproj",
       "projectName": "Test_Consola",
-      "projectPath": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP4\\Test_Consola\\Test_Consola.csproj",
+      "projectPath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Test_Consola\\Test_Consola.csproj",
       "packagesPath": "C:\\Users\\LuisAndaur\\.nuget\\packages\\",
-      "outputPath": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP4\\Test_Consola\\obj\\",
+      "outputPath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Test_Consola\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -503,8 +503,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj": {
-              "projectPath": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj"
+            "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj": {
+              "projectPath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj"
             }
           }
         }
@@ -533,7 +533,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

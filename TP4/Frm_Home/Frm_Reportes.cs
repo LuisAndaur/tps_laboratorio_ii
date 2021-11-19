@@ -35,7 +35,7 @@ namespace Frm_TorneoPRO
             lbl_NombreTorneo.Text = TorneoPro.NombreTorneo;
             lbl_Patrocinio.Text = TorneoPro.Patrocinio;
             lbl_Premio.Text = $"U$D{TorneoPro.Premio.ToString()}";
-            rtb_Analisis.Text = Estadistica.AnalisisDeDatos();
+            rtb_Analisis.Text = Estadistica.AnalisisDeDatos(TorneoPro.ListaJugadores);
 
         }
 
@@ -476,7 +476,7 @@ namespace Frm_TorneoPRO
         {
             try
             {
-                GuardarComo(Estadistica.AnalisisDeDatos());
+                GuardarComo(Estadistica.AnalisisDeDatos(TorneoPro.ListaJugadores));
             }
             catch (Exception_Archivo eArchivo)
             {

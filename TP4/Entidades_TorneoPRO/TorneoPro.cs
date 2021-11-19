@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -117,15 +118,27 @@ namespace Entidades_TorneoPRO
         /// </summary>
         private static void CargarJugadores()
         {
-            listaJugadores = ConexionDB.TraerDatos("select * from jugadores");
-            if (listaJugadores == null)
+            try
             {
-                listaJugadores = SerializacionJson<List<Jugador>>.Leer("listaJugadores.json");
-                if (listaJugadores == null)
+                listaJugadores = ConexionDB.TraerDatos("select * from jugadores");
+                if (listaJugadores == null || listaJugadores.Count == 0)
                 {
-                    throw new Exception_SerializacionJson("No se deserializo la lista inicial");
-                }                
+                    listaJugadores = SerializacionJson<List<Jugador>>.Leer("listaJugadores.json");
+                    if (listaJugadores == null || listaJugadores.Count == 0)
+                    {
+                        throw new Exception_SerializacionJson("No se deserializo la lista inicial");
+                    }
+                }
             }
+            catch (SqlException)
+            {
+                throw;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            
         }
 
         /// <summary>

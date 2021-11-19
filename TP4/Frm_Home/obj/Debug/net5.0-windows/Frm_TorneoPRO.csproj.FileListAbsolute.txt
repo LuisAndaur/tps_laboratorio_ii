@@ -162,3 +162,36 @@ D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\ref\Frm_TorneoPRO.dll
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.pdb
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.genruntimeconfig.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.exe
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.deps.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.runtimeconfig.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.runtimeconfig.dev.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\ref\Frm_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\Frm_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\bin\Debug\net5.0-windows\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.AssemblyReference.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Administrador.resources
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Home.resources
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Mensaje.resources
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_ModalABM.resources
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Reportes.resources
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_Simulador.resources
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Properties.Resources.resources
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.GenerateResource.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.AssemblyInfo.cs
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.csproj.CopyComplete
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\ref\Frm_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.genruntimeconfig.cache

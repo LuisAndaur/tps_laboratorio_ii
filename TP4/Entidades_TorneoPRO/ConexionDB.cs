@@ -13,11 +13,11 @@ namespace Entidades_TorneoPRO
         static SqlConnection conexion; //conecta la instancia de sql
         static SqlCommand comando; //llevar la consulta
         static SqlDataReader reader; //devolverme los datos
-        private static string connStr;
 
         static ConexionDB()
         {
-            conexion = new SqlConnection(@"Server=DESKTOP-1GT6RE5\SQLEXPRESS;Database=TorneoCSGO;Trusted_Connection=True;");
+            //conexion = new SqlConnection(@"Server=DESKTOP-1GT6RE5\SQLEXPRESS;Database=TorneoCSGO;Trusted_Connection=True;");
+            conexion = new SqlConnection(@"Server=DESKTOP-59VIUUI\SQLEXPRESS;Database=TorneoCSGO;Trusted_Connection=True;");
             comando = new SqlCommand();
             comando.CommandType = CommandType.Text;
             comando.Connection = conexion;

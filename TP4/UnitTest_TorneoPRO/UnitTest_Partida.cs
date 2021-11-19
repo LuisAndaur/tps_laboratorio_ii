@@ -10,12 +10,12 @@ namespace UnitTest_TorneoPRO
         /// Prueba la simulacion del torneo
         /// </summary>
         [TestMethod]
-        public void TestSimularPartidas_RecibeListaJugadores_RetornaTrueSimulacionCorrecta()
+        public void TestSimulador_RecibeListaJugadores_RetornaTrueSimulacionCorrecta()
         {
             Partida partida = new Partida();
             bool simulacionCorrecta;
 
-            simulacionCorrecta = partida.SimularPartidas(TorneoPro.ListaJugadores);
+            simulacionCorrecta = partida.simulador.Invoke(TorneoPro.ListaJugadores);
 
             Assert.IsTrue(simulacionCorrecta);
         }

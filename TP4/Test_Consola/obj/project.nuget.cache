@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AieiR95PcRqjz1SLkOtwGKz47/VDNw4gFHukYjo2OFQ90HePbcrIgDGmTec4L4zIKz643HhXjwiy7Wu/Gi2Z+g==",
+  "dgSpecHash": "qYfEILbqr/PSm2uCV1PMFKoxeAAvbNmNHXvwzQJCKpci7zSrZq64uBpqAxV5cy0ZMyd/p2IWPykpy1998/OZ0w==",
   "success": true,
-  "projectFilePath": "D:\\TUP\\2do Cuatrimestre 2021\\Programación y Laboratorio 2\\tps_laboratorio_ii\\TP4\\Test_Consola\\Test_Consola.csproj",
+  "projectFilePath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Test_Consola\\Test_Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

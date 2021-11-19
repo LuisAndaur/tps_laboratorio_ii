@@ -57,3 +57,15 @@ D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
 D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache

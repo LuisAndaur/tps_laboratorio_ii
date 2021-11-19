@@ -40,9 +40,14 @@ namespace Test_Consola
 
             Console.WriteLine("SIMULANDO TORNEO...");
             Partida fullPartidas = new Partida();
-            fullPartidas.SimularPartidas(jugadores);
+            fullPartidas.simulador.Invoke(jugadores);
 
             Console.WriteLine("GENERANDO REPORTES...");
+
+            Console.WriteLine("\n*****************************************************************");
+            Console.WriteLine("                       ANÁLISIS DE DATOS:");
+            Console.WriteLine("*****************************************************************");
+            Console.WriteLine(Estadistica.AnalisisDeDatos(jugadores));
 
             Console.WriteLine("\n*****************************************************************");
             Console.WriteLine("                     CAMPEON DEL TORNEO:");

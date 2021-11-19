@@ -13,7 +13,7 @@ namespace UnitTest_TorneoPRO
         [ExpectedException(typeof(Exception_NroJugadorYaExiste))]
         public void TestAgregarJugador_NroJugadorExiste_RetornaExceptionNroJugadorYaExiste()
         {
-            string nroJugador = "1111";
+            string nroJugador = "1";
             string nombre = "Perla";
             string edad = "20";
             string genero = "Female";
@@ -30,7 +30,7 @@ namespace UnitTest_TorneoPRO
         [TestMethod]
         public void TestExisteJugador_RecibeNroJugador_RetornaFalseSiNoExiste()
         {
-            int nroJugador = 1;
+            int nroJugador = 161;
             bool existe;
 
             existe = TorneoPro.ExisteJugador(nroJugador);
