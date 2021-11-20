@@ -195,3 +195,4 @@ C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5
 C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\ref\Frm_TorneoPRO.dll
 C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.pdb
 C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.genruntimeconfig.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Frm_Home\obj\Debug\net5.0-windows\Frm_TorneoPRO.Frm_CargarJugadores.resources

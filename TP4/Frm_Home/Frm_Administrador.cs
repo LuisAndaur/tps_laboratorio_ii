@@ -25,20 +25,8 @@ namespace Frm_TorneoPRO
         /// <param name="sender"></param>
         /// <param name="e"></param>
         /// <exception cref="Exception_SerializacionJson">Error en serializacion o deserializacion de un json</exception>
-        private async void Frm_Administrador_Load(object sender, EventArgs e)
-        {
-            try
-            {
-                await Task.Run(CargarJugadores);
-            }
-            catch (Exception_SerializacionJson eSerializacion)
-            {
-                MessageBox.Show(eSerializacion.Message, "ERROR al cargar la lista json", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            catch (Exception auxEx)
-            {
-                MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+        private void Frm_Administrador_Load(object sender, EventArgs e)
+        {            
             
         }
 
@@ -181,8 +169,7 @@ namespace Frm_TorneoPRO
         /// </summary>
         private void CargarJugadores()
         {
-            listaJugadores = TorneoPro.ListaJugadores;
-            Thread.Sleep(3000);
+            listaJugadores = TorneoPro.CargarJugadores("select * from jugadores");
             RecargarListaJugadores();
             if (this.lbl_Cargando.InvokeRequired)
             {
@@ -190,6 +177,24 @@ namespace Frm_TorneoPRO
                 {
                     lbl_Cargando.Visible = false;
                 });
+            }
+        }
+
+        private void btn_CargarJugadorex_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Task.Run(CargarJugadores);
+                Frm_CargarJugadores cargando = new Frm_CargarJugadores();
+                cargando.ShowDialog();
+            }
+            catch (Exception_SerializacionJson eSerializacion)
+            {
+                MessageBox.Show(eSerializacion.Message, "ERROR al cargar la lista json", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception auxEx)
+            {
+                MessageBox.Show(auxEx.Message, "Error inesperado", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

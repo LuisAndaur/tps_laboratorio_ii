@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Entidades_TorneoPRO
@@ -15,6 +16,7 @@ namespace Entidades_TorneoPRO
         private static List<Deathmatch> mapasDeathmatch;
         private static List<Bomba> mapasBomba;
         private static List<Rehenes> mapasRehenes;
+        private static CancellationTokenSource tokenSource;
 
         /// <summary>
         /// Propiedad estatica de la lista de jugadores
@@ -100,6 +102,8 @@ namespace Entidades_TorneoPRO
             get { return nombreTorneo; }
         }
 
+        public static CancellationTokenSource Token { get { return tokenSource; } set { Token = value; } }
+
         /// <summary>
         /// Constructor estatico de la clase TorneoPro
         /// </summary>
@@ -109,18 +113,18 @@ namespace Entidades_TorneoPRO
             premio = 1000000;
             patrocinio = "EASport";
             listaJugadores = new List<Jugador>();
-            CargarJugadores();
             CargarMapas();
+            tokenSource = new CancellationTokenSource();
         }
 
         /// <summary>
-        /// Metodo que carga la lista de jugadores desde un archivo json
+        /// Metodo que carga la lista de jugadores 
         /// </summary>
-        private static void CargarJugadores()
+        public static List<Jugador> CargarJugadores(string query)
         {
             try
-            {
-                listaJugadores = ConexionDB.TraerDatos("select * from jugadores");
+            {                
+                listaJugadores = ConexionDB.TraerDatos(query, TorneoPro.tokenSource.Token);
                 if (listaJugadores == null || listaJugadores.Count == 0)
                 {
                     listaJugadores = SerializacionJson<List<Jugador>>.Leer("listaJugadores.json");
@@ -129,15 +133,21 @@ namespace Entidades_TorneoPRO
                         throw new Exception_SerializacionJson("No se deserializo la lista inicial");
                     }
                 }
+                else
+                {
+                    return listaJugadores;
+                }
             }
             catch (SqlException)
             {
                 throw;
             }
-            catch (Exception)
-            {
-                throw;
-            }
+            //catch (Exception)
+            //{
+            //    throw;
+            //}
+
+            return null;
             
         }
 

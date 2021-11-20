@@ -4,15 +4,18 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Entidades_TorneoPRO
 {
+    public delegate void DelegadoActualizar(int carga);
     public static class ConexionDB
     {
         static SqlConnection conexion; //conecta la instancia de sql
         static SqlCommand comando; //llevar la consulta
         static SqlDataReader reader; //devolverme los datos
+        public static event DelegadoActualizar EventoActualizar;
 
         static ConexionDB()
         {
@@ -23,7 +26,7 @@ namespace Entidades_TorneoPRO
             comando.Connection = conexion;
         }
 
-        public static List<Jugador> TraerDatos(string query)
+        public static List<Jugador> TraerDatos(string query, CancellationToken token)
         {
             try
             {
@@ -36,8 +39,8 @@ namespace Entidades_TorneoPRO
                 }
 
                 reader = comando.ExecuteReader();
-
-                while (reader.Read())
+                reader.Read();
+                do
                 {                    
                     Jugador auxJugador = new Jugador();
 
@@ -52,9 +55,16 @@ namespace Entidades_TorneoPRO
                     auxJugador.PrimerTorneo = (bool)reader["PrimerTorneo"];
 
                     auxLista.Add(auxJugador);
-                }
+                    if (EventoActualizar is not null)
+                    {
+                        ConexionDB.EventoActualizar.Invoke(auxLista.Count);
+                    }                    
+                    Thread.Sleep(500);
+                } while (reader.Read() && !token.IsCancellationRequested) ;
 
-                return auxLista;
+
+
+                    return auxLista;
             }
             catch (SqlException)
             {

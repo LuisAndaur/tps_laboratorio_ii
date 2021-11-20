@@ -33,6 +33,7 @@ namespace Frm_TorneoPRO
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Administrador));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbl_Cargando = new System.Windows.Forms.Label();
             this.dgv_ListaJugadores = new System.Windows.Forms.DataGridView();
             this.NroJugador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,7 +48,7 @@ namespace Frm_TorneoPRO
             this.btn_Eliminar = new System.Windows.Forms.Button();
             this.btn_Editar = new System.Windows.Forms.Button();
             this.btn_Agregar = new System.Windows.Forms.Button();
-            this.lbl_Cargando = new System.Windows.Forms.Label();
+            this.btn_CargarJugadorex = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListaJugadores)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,6 +65,17 @@ namespace Frm_TorneoPRO
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista de Jugadores";
+            // 
+            // lbl_Cargando
+            // 
+            this.lbl_Cargando.AutoSize = true;
+            this.lbl_Cargando.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Cargando.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.lbl_Cargando.Location = new System.Drawing.Point(358, 264);
+            this.lbl_Cargando.Name = "lbl_Cargando";
+            this.lbl_Cargando.Size = new System.Drawing.Size(96, 21);
+            this.lbl_Cargando.TabIndex = 7;
+            this.lbl_Cargando.Text = "Cargando...";
             // 
             // dgv_ListaJugadores
             // 
@@ -163,7 +175,7 @@ namespace Frm_TorneoPRO
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(223, 21);
             this.label1.TabIndex = 1;
@@ -247,16 +259,22 @@ namespace Frm_TorneoPRO
             this.btn_Agregar.UseVisualStyleBackColor = false;
             this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
-            // lbl_Cargando
+            // btn_CargarJugadorex
             // 
-            this.lbl_Cargando.AutoSize = true;
-            this.lbl_Cargando.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Cargando.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.lbl_Cargando.Location = new System.Drawing.Point(358, 264);
-            this.lbl_Cargando.Name = "lbl_Cargando";
-            this.lbl_Cargando.Size = new System.Drawing.Size(96, 21);
-            this.lbl_Cargando.TabIndex = 7;
-            this.lbl_Cargando.Text = "Cargando...";
+            this.btn_CargarJugadorex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
+            this.btn_CargarJugadorex.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.btn_CargarJugadorex.FlatAppearance.BorderSize = 2;
+            this.btn_CargarJugadorex.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.btn_CargarJugadorex.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btn_CargarJugadorex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_CargarJugadorex.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_CargarJugadorex.Location = new System.Drawing.Point(12, 36);
+            this.btn_CargarJugadorex.Name = "btn_CargarJugadorex";
+            this.btn_CargarJugadorex.Size = new System.Drawing.Size(223, 25);
+            this.btn_CargarJugadorex.TabIndex = 7;
+            this.btn_CargarJugadorex.Text = "Cargar jugadores";
+            this.btn_CargarJugadorex.UseVisualStyleBackColor = false;
+            this.btn_CargarJugadorex.Click += new System.EventHandler(this.btn_CargarJugadorex_Click);
             // 
             // Frm_Administrador
             // 
@@ -264,6 +282,7 @@ namespace Frm_TorneoPRO
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
             this.ClientSize = new System.Drawing.Size(840, 595);
+            this.Controls.Add(this.btn_CargarJugadorex);
             this.Controls.Add(this.btn_Agregar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -304,5 +323,6 @@ namespace Frm_TorneoPRO
         private System.Windows.Forms.DataGridViewTextBoxColumn Especialidad;
         private System.Windows.Forms.DataGridViewCheckBoxColumn PrimerTorneo;
         private System.Windows.Forms.Label lbl_Cargando;
+        private System.Windows.Forms.Button btn_CargarJugadorex;
     }
 }
