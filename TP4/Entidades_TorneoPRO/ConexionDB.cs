@@ -41,14 +41,14 @@ namespace Entidades_TorneoPRO
                 {                    
                     Jugador auxJugador = new Jugador();
 
-                    decimal.TryParse(reader["Id"].ToString(), out decimal auxId);
-                    decimal.TryParse(reader["Edad"].ToString(), out decimal auxEdad);
+                    decimal.TryParse(reader["Id"].ToString().Trim(), out decimal auxId);
+                    decimal.TryParse(reader["Edad"].ToString().Trim(), out decimal auxEdad);
                     auxJugador.NroJugador = (int)auxId;
-                    auxJugador.Nombre = reader["Nombre"].ToString();
+                    auxJugador.Nombre = reader["Nombre"].ToString().Trim();
                     auxJugador.Edad = (int)auxEdad;
-                    auxJugador.Genero = reader["Genero"].ToString();
-                    auxJugador.Nacionalidad = reader["Nacionalidad"].ToString();
-                    auxJugador.Especialidad = reader["Especialidad"].ToString();
+                    auxJugador.Genero = reader["Genero"].ToString().Trim();
+                    auxJugador.Nacionalidad = reader["Nacionalidad"].ToString().Trim();
+                    auxJugador.Especialidad = reader["Especialidad"].ToString().Trim();
                     auxJugador.PrimerTorneo = (bool)reader["PrimerTorneo"];
 
                     auxLista.Add(auxJugador);

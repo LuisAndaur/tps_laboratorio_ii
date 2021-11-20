@@ -126,6 +126,7 @@ namespace Entidades_TorneoPRO
             int nacionalidadNLF = 0;
             int nacionalidadLM = 0;
             int nacionalidadNLM = 0;
+            string formato = string.Empty;
 
             foreach (Jugador item in lista)
             {
@@ -167,24 +168,24 @@ namespace Entidades_TorneoPRO
 
             StringBuilder analisis = new StringBuilder();
             analisis.AppendLine(String.Format("*Participacion total del torneo  ------------ {0,4}", lista.Count));
-            analisis.AppendLine(String.Format("\n*Categoria----------------Female----||-----Male------"));
-            analisis.AppendLine(String.Format("\n{0,-20}{1,5} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[0], female, (float)female * 100 / lista.Count, male, (float)male * 100 / lista.Count));
+            analisis.AppendLine(String.Format("\n*Categoria----------------Female----||----Male-----"));
+            analisis.AppendLine(formato.MiFormato(titulo[0], female, (float)female * 100 / lista.Count, male, (float)male * 100 / lista.Count));
             analisis.AppendLine(String.Format("\n*Primer torneo -------------------------------------"));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[1], primerTorneoSiFem, (float)primerTorneoSiFem * 100 / female, primerTorneoSiMen, (float)primerTorneoSiMen * 100 / male));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[2], primerTorneoNoFem, (float)primerTorneoNoFem * 100 / female, primerTorneoNoMen, (float)primerTorneoNoMen * 100 / male));
+            analisis.AppendLine(formato.MiFormato(titulo[1], primerTorneoSiFem, (float)primerTorneoSiFem * 100 / female, primerTorneoSiMen, (float)primerTorneoSiMen * 100 / male));
+            analisis.AppendLine(formato.MiFormato(titulo[2], primerTorneoNoFem, (float)primerTorneoNoFem * 100 / female, primerTorneoNoMen, (float)primerTorneoNoMen * 100 / male));
             analisis.AppendLine(String.Format("\n*Rango etario --------------------------------------"));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[3], rangoEstarioFemUno, (float)rangoEstarioFemUno * 100 / female, rangoEstarioMenUno, (float)rangoEstarioMenUno * 100 / male));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[4], rangoEstarioFemDos, (float)rangoEstarioFemDos * 100 / female, rangoEstarioMenDos, (float)rangoEstarioMenDos * 100 / male));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[5], rangoEstarioFemTres, (float)rangoEstarioFemTres * 100 / female, rangoEstarioMenTres, (float)rangoEstarioMenTres * 100 / male));
+            analisis.AppendLine(formato.MiFormato(titulo[3], rangoEstarioFemUno, (float)rangoEstarioFemUno * 100 / female, rangoEstarioMenUno, (float)rangoEstarioMenUno * 100 / male));
+            analisis.AppendLine(formato.MiFormato(titulo[4], rangoEstarioFemDos, (float)rangoEstarioFemDos * 100 / female, rangoEstarioMenDos, (float)rangoEstarioMenDos * 100 / male));
+            analisis.AppendLine(formato.MiFormato(titulo[5], rangoEstarioFemTres, (float)rangoEstarioFemTres * 100 / female, rangoEstarioMenTres, (float)rangoEstarioMenTres * 100 / male));
             analisis.AppendLine(String.Format("\n*Nacionalidad --------------------------------------"));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[6], nacionalidadLF, (float)nacionalidadLF * 100 / female, nacionalidadLM, (float)nacionalidadLM * 100 / male));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:0.00}%  ||{3,5} | {4,5:0.00}%", titulo[7], nacionalidadNLF, (float)nacionalidadNLF * 100 / female, nacionalidadNLM, (float)nacionalidadNLM * 100 / male));
+            analisis.AppendLine(formato.MiFormato(titulo[6], nacionalidadLF, (float)nacionalidadLF * 100 / female, nacionalidadLM, (float)nacionalidadLM * 100 / male));
+            analisis.AppendLine(formato.MiFormato(titulo[7], nacionalidadNLF, (float)nacionalidadNLF * 100 / female, nacionalidadNLM, (float)nacionalidadNLM * 100 / male));
             analisis.AppendLine(String.Format("\n*Promedios -----------------------------------------"));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[8], killsF, (float)killsF / lista.Count, killsM, (float)killsM/ lista.Count));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[9], muertesF, (float)muertesF / lista.Count, muertesM, (float)muertesM / lista.Count));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[10], headshotsF, (float)headshotsF / lista.Count, headshotsM, (float)headshotsM / lista.Count));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[11], bombasF, (float)bombasF / lista.Count, bombasM, (float)bombasM / lista.Count));
-            analisis.AppendLine(String.Format("{0,-20}{1,5} | {2,5:00.000}  ||{3,5} | {4,5:00.000}", titulo[12], rehenesF, (float)rehenesF / lista.Count, rehenesM, (float)rehenesM / lista.Count));
+            analisis.AppendLine(formato.MiFormato2(titulo[8], killsF, (float)killsF / lista.Count, killsM, (float)killsM/ lista.Count));
+            analisis.AppendLine(formato.MiFormato2(titulo[9], muertesF, (float)muertesF / lista.Count, muertesM, (float)muertesM / lista.Count));
+            analisis.AppendLine(formato.MiFormato2(titulo[10], headshotsF, (float)headshotsF / lista.Count, headshotsM, (float)headshotsM / lista.Count));
+            analisis.AppendLine(formato.MiFormato2(titulo[11], bombasF, (float)bombasF / lista.Count, bombasM, (float)bombasM / lista.Count));
+            analisis.AppendLine(formato.MiFormato2(titulo[12], rehenesF, (float)rehenesF / lista.Count, rehenesM, (float)rehenesM / lista.Count));
             analisis.AppendLine(String.Format("\n----------------------------------------------------"));
 
             return analisis.ToString();
