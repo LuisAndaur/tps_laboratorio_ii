@@ -15,6 +15,7 @@ namespace Entidades_TorneoPRO
         static SqlConnection conexion; //conecta la instancia de sql
         static SqlCommand comando; //llevar la consulta
         static SqlDataReader reader; //devolverme los datos
+        public static int totalColumnas = 0;
         public static event DelegadoActualizar EventoActualizar;
 
         static ConexionDB()
@@ -29,14 +30,17 @@ namespace Entidades_TorneoPRO
         public static List<Jugador> TraerDatos(string query, CancellationToken token)
         {
             try
-            {
+            {                
                 List<Jugador> auxLista = new List<Jugador>();
 
-                comando.CommandText = query;
+                
                 if (conexion.State != ConnectionState.Open)
                 {
                     conexion.Open();
                 }
+                comando.CommandText = ("SELECT COUNT (*) FROM Jugadores");
+                totalColumnas = (int)comando.ExecuteScalar();
+                comando.CommandText = query;
 
                 reader = comando.ExecuteReader();
                 reader.Read();
@@ -59,7 +63,7 @@ namespace Entidades_TorneoPRO
                     {
                         ConexionDB.EventoActualizar.Invoke(auxLista.Count);
                     }                    
-                    Thread.Sleep(500);
+                    Thread.Sleep(100);
                 } while (reader.Read() && !token.IsCancellationRequested) ;
 
 

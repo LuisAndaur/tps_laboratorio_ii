@@ -113,8 +113,7 @@ namespace Entidades_TorneoPRO
             premio = 1000000;
             patrocinio = "EASport";
             listaJugadores = new List<Jugador>();
-            CargarMapas();
-            tokenSource = new CancellationTokenSource();
+            CargarMapas();            
         }
 
         /// <summary>
@@ -123,7 +122,8 @@ namespace Entidades_TorneoPRO
         public static List<Jugador> CargarJugadores(string query)
         {
             try
-            {                
+            {
+                tokenSource = new CancellationTokenSource();
                 listaJugadores = ConexionDB.TraerDatos(query, TorneoPro.tokenSource.Token);
                 if (listaJugadores == null || listaJugadores.Count == 0)
                 {

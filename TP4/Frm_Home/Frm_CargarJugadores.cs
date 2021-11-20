@@ -23,14 +23,13 @@ namespace Frm_TorneoPRO
 
         private void Frm_CargarJugadores_Load(object sender, EventArgs e)
         {
-            ConexionDB.EventoActualizar += this.ActualizarProgressBar;
+            ConexionDB.EventoActualizar += this.ActualizarProgressBar;            
         }
 
         private void btn_Cancelar_Click(object sender, EventArgs e)
         {
             this.tokenSource = TorneoPro.Token;
             this.tokenSource.Cancel();
-            TorneoPro.Token = new CancellationTokenSource();
             this.Close();
         }
 
@@ -44,12 +43,17 @@ namespace Frm_TorneoPRO
             if (this.prb_Progreso.InvokeRequired)
             {
                 DelegadoActualizar del = new DelegadoActualizar(this.ActualizarProgressBar);
-                object[] arg = new object[] { valor };
+                object[] arg = new object[] { valor};
                 this.prb_Progreso.Invoke(del, arg);
             }
             else
             {
+                this.prb_Progreso.Minimum = 0;
+                this.prb_Progreso.Maximum = ConexionDB.totalColumnas;
                 this.prb_Progreso.Value = valor;
+                this.lbl_JugadoresCargados.Text = valor.ToString();
+                lbl_CantidadTotal.Text = ConexionDB.totalColumnas.ToString();
+
             }
         }
 
