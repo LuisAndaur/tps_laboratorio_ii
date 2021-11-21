@@ -57,6 +57,7 @@ namespace Frm_TorneoPRO
             // btn_Continuar
             // 
             this.btn_Continuar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
+            this.btn_Continuar.Enabled = false;
             this.btn_Continuar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.btn_Continuar.FlatAppearance.BorderSize = 2;
             this.btn_Continuar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
@@ -94,9 +95,9 @@ namespace Frm_TorneoPRO
             this.lbl_JugadoresCargados.AutoSize = true;
             this.lbl_JugadoresCargados.Location = new System.Drawing.Point(22, 54);
             this.lbl_JugadoresCargados.Name = "lbl_JugadoresCargados";
-            this.lbl_JugadoresCargados.Size = new System.Drawing.Size(38, 15);
+            this.lbl_JugadoresCargados.Size = new System.Drawing.Size(13, 15);
             this.lbl_JugadoresCargados.TabIndex = 11;
-            this.lbl_JugadoresCargados.Text = "label2";
+            this.lbl_JugadoresCargados.Text = "0";
             // 
             // lbl_CantidadTotal
             // 
@@ -120,6 +121,7 @@ namespace Frm_TorneoPRO
             this.Controls.Add(this.btn_Cancelar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_CargarJugadores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_CargarJugadores";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_CargarJugadores_FormClosing);
             this.Load += new System.EventHandler(this.Frm_CargarJugadores_Load);

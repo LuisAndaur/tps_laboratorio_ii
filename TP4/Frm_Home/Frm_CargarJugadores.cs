@@ -23,7 +23,8 @@ namespace Frm_TorneoPRO
 
         private void Frm_CargarJugadores_Load(object sender, EventArgs e)
         {
-            ConexionDB.EventoActualizar += this.ActualizarProgressBar;            
+            ConexionDB.EventoActualizar += this.ActualizarProgressBar;
+            btn_Continuar.Enabled = false;
         }
 
         private void btn_Cancelar_Click(object sender, EventArgs e)
@@ -31,11 +32,13 @@ namespace Frm_TorneoPRO
             this.tokenSource = TorneoPro.Token;
             this.tokenSource.Cancel();
             this.Close();
+            Mensaje();
         }
 
         private void btn_Continuar_Click(object sender, EventArgs e)
         {
             this.Close();
+            Mensaje();
         }
 
         private void ActualizarProgressBar(int valor)
@@ -44,7 +47,7 @@ namespace Frm_TorneoPRO
             {
                 DelegadoActualizar del = new DelegadoActualizar(this.ActualizarProgressBar);
                 object[] arg = new object[] { valor};
-                this.prb_Progreso.Invoke(del, arg);
+                this.prb_Progreso.Invoke(del, arg);                
             }
             else
             {
@@ -53,13 +56,31 @@ namespace Frm_TorneoPRO
                 this.prb_Progreso.Value = valor;
                 this.lbl_JugadoresCargados.Text = valor.ToString();
                 lbl_CantidadTotal.Text = ConexionDB.totalColumnas.ToString();
-
-            }
+                BotonEnable();
+            }            
         }
 
         private void Frm_CargarJugadores_FormClosing(object sender, FormClosingEventArgs e)
         {
             ConexionDB.EventoActualizar -= this.ActualizarProgressBar;
+        }
+
+        /// <summary>
+        /// cartel de mensaje si se exporto correctamente
+        /// </summary>
+        private void Mensaje()
+        {
+            Frm_Mensaje mensaje = new Frm_Mensaje($"Se cargaron {this.prb_Progreso.Value}\nJugadores!");
+            mensaje.ShowDialog();
+        }
+
+        private void BotonEnable()
+        {
+            if (this.prb_Progreso.Value == ConexionDB.totalColumnas)
+            {
+                btn_Continuar.Enabled = true;
+                btn_Cancelar.Enabled = false;
+            }
         }
     }
 }

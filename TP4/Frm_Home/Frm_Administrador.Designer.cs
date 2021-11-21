@@ -33,7 +33,6 @@ namespace Frm_TorneoPRO
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Administrador));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbl_Cargando = new System.Windows.Forms.Label();
             this.dgv_ListaJugadores = new System.Windows.Forms.DataGridView();
             this.NroJugador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,7 +55,6 @@ namespace Frm_TorneoPRO
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lbl_Cargando);
             this.groupBox1.Controls.Add(this.dgv_ListaJugadores);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(12, 62);
@@ -65,17 +63,6 @@ namespace Frm_TorneoPRO
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista de Jugadores";
-            // 
-            // lbl_Cargando
-            // 
-            this.lbl_Cargando.AutoSize = true;
-            this.lbl_Cargando.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Cargando.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.lbl_Cargando.Location = new System.Drawing.Point(358, 264);
-            this.lbl_Cargando.Name = "lbl_Cargando";
-            this.lbl_Cargando.Size = new System.Drawing.Size(96, 21);
-            this.lbl_Cargando.TabIndex = 7;
-            this.lbl_Cargando.Text = "Cargando...";
             // 
             // dgv_ListaJugadores
             // 
@@ -297,7 +284,6 @@ namespace Frm_TorneoPRO
             this.Text = "Frm_Administrador";
             this.Load += new System.EventHandler(this.Frm_Administrador_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ListaJugadores)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -322,7 +308,6 @@ namespace Frm_TorneoPRO
         private System.Windows.Forms.DataGridViewTextBoxColumn Nacionalidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Especialidad;
         private System.Windows.Forms.DataGridViewCheckBoxColumn PrimerTorneo;
-        private System.Windows.Forms.Label lbl_Cargando;
         private System.Windows.Forms.Button btn_CargarJugadorex;
     }
 }

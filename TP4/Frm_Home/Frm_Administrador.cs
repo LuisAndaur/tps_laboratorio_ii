@@ -171,19 +171,13 @@ namespace Frm_TorneoPRO
         {
             listaJugadores = TorneoPro.CargarJugadores("select * from jugadores");
             RecargarListaJugadores();
-            if (this.lbl_Cargando.InvokeRequired)
-            {
-                this.lbl_Cargando.BeginInvoke((MethodInvoker)delegate ()
-                {
-                    lbl_Cargando.Visible = false;
-                });
-            }
         }
 
         private void btn_CargarJugadorex_Click(object sender, EventArgs e)
         {
             try
             {
+                dgv_ListaJugadores.Rows.Clear();
                 Task.Run(CargarJugadores);
                 Frm_CargarJugadores cargando = new Frm_CargarJugadores();
                 cargando.ShowDialog();

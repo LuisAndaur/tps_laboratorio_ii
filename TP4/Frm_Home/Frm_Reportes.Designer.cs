@@ -292,6 +292,7 @@ namespace Frm_TorneoPRO
             this.rtb_lista.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rtb_lista.Location = new System.Drawing.Point(3, 19);
             this.rtb_lista.Name = "rtb_lista";
+            this.rtb_lista.ReadOnly = true;
             this.rtb_lista.Size = new System.Drawing.Size(362, 230);
             this.rtb_lista.TabIndex = 15;
             this.rtb_lista.Text = "";
@@ -382,6 +383,7 @@ namespace Frm_TorneoPRO
             this.rtb_Analisis.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rtb_Analisis.Location = new System.Drawing.Point(3, 19);
             this.rtb_Analisis.Name = "rtb_Analisis";
+            this.rtb_Analisis.ReadOnly = true;
             this.rtb_Analisis.Size = new System.Drawing.Size(376, 436);
             this.rtb_Analisis.TabIndex = 15;
             this.rtb_Analisis.Text = "";

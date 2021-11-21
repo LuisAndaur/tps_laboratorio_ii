@@ -12,9 +12,9 @@ namespace Entidades_TorneoPRO
     public delegate void DelegadoActualizar(int carga);
     public static class ConexionDB
     {
-        static SqlConnection conexion; //conecta la instancia de sql
-        static SqlCommand comando; //llevar la consulta
-        static SqlDataReader reader; //devolverme los datos
+        static SqlConnection conexion;
+        static SqlCommand comando;
+        static SqlDataReader reader;
         public static int totalColumnas = 0;
         public static event DelegadoActualizar EventoActualizar;
 
@@ -27,13 +27,19 @@ namespace Entidades_TorneoPRO
             comando.Connection = conexion;
         }
 
+        /// <summary>
+        /// Conecta con la base de datos y trae la query solicitada que puede ser cancelada
+        /// </summary>
+        /// <param name="query">solicitud</param>
+        /// <param name="token">cancellation token</param>
+        /// <returns>retorna lista de jugadores</returns>
         public static List<Jugador> TraerDatos(string query, CancellationToken token)
         {
             try
-            {                
+            {
                 List<Jugador> auxLista = new List<Jugador>();
 
-                
+
                 if (conexion.State != ConnectionState.Open)
                 {
                     conexion.Open();
@@ -45,14 +51,12 @@ namespace Entidades_TorneoPRO
                 reader = comando.ExecuteReader();
                 reader.Read();
                 do
-                {                    
+                {
                     Jugador auxJugador = new Jugador();
 
-                    decimal.TryParse(reader["Id"].ToString().Trim(), out decimal auxId);
-                    decimal.TryParse(reader["Edad"].ToString().Trim(), out decimal auxEdad);
-                    auxJugador.NroJugador = (int)auxId;
+                    auxJugador.NroJugador = (int)reader["Id"];
                     auxJugador.Nombre = reader["Nombre"].ToString().Trim();
-                    auxJugador.Edad = (int)auxEdad;
+                    auxJugador.Edad = (int)reader["Edad"];
                     auxJugador.Genero = reader["Genero"].ToString().Trim();
                     auxJugador.Nacionalidad = reader["Nacionalidad"].ToString().Trim();
                     auxJugador.Especialidad = reader["Especialidad"].ToString().Trim();
@@ -62,13 +66,11 @@ namespace Entidades_TorneoPRO
                     if (EventoActualizar is not null)
                     {
                         ConexionDB.EventoActualizar.Invoke(auxLista.Count);
-                    }                    
+                    }
                     Thread.Sleep(100);
-                } while (reader.Read() && !token.IsCancellationRequested) ;
+                } while (reader.Read() && !token.IsCancellationRequested);
 
-
-
-                    return auxLista;
+                return auxLista;
             }
             catch (SqlException)
             {
@@ -78,7 +80,6 @@ namespace Entidades_TorneoPRO
             {
                 conexion.Close();
             }
-        }
-
+        }        
     }
 }

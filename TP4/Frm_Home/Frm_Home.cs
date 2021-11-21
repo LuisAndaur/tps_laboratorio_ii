@@ -57,12 +57,19 @@ namespace Frm_TorneoPRO
             try
             {
                 if (!flagSimulacion)
-                {                    
-                    Partida fullPartidas = new Partida();
-                    fullPartidas.simulador.Invoke(TorneoPro.ListaJugadores);
-                    Frm_Simulador simular = new Frm_Simulador();
-                    simular.ShowDialog();
-                    flagSimulacion = true;
+                {
+                    if (TorneoPro.ListaJugadores.Count > 1)
+                    {
+                        Partida fullPartidas = new Partida();
+                        fullPartidas.simulador.Invoke(TorneoPro.ListaJugadores);
+                        Frm_Simulador simular = new Frm_Simulador();
+                        simular.ShowDialog();
+                        flagSimulacion = true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Debe cargar los jugadores", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }                    
                 }
                 else
                 {

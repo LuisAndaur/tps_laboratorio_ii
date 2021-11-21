@@ -410,7 +410,7 @@ namespace Frm_TorneoPRO
         private void Mensaje()
         {
             Frm_Mensaje mensaje = new Frm_Mensaje("Archivo guardado\nEXITOSAMENTE!");
-            mensaje.BackColor = Color.FromArgb(222,40,50); ;
+            mensaje.BackColor = Color.FromArgb(222,40,50);
             mensaje.ShowDialog();
         }
 
