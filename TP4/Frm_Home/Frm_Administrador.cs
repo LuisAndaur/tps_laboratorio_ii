@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -185,6 +186,10 @@ namespace Frm_TorneoPRO
             catch (Exception_SerializacionJson eSerializacion)
             {
                 MessageBox.Show(eSerializacion.Message, "ERROR al cargar la lista json", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (SqlException eSql)
+            {
+                MessageBox.Show(eSql.Message, "ERROR al cargar la base de datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception auxEx)
             {

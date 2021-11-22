@@ -69,3 +69,15 @@ C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj
 C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
 C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
 C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb

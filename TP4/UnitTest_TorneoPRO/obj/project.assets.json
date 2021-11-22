@@ -6551,24 +6551,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LuisAndaur\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\LuisAndaur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\UnitTest_TorneoPRO\\UnitTest_TorneoPRO.csproj",
+      "projectUniqueName": "D:\\TUP\\Programacion y Laboratorio ii\\tps\\tps_laboratorio_ii\\TP4\\UnitTest_TorneoPRO\\UnitTest_TorneoPRO.csproj",
       "projectName": "UnitTest_TorneoPRO",
-      "projectPath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\UnitTest_TorneoPRO\\UnitTest_TorneoPRO.csproj",
+      "projectPath": "D:\\TUP\\Programacion y Laboratorio ii\\tps\\tps_laboratorio_ii\\TP4\\UnitTest_TorneoPRO\\UnitTest_TorneoPRO.csproj",
       "packagesPath": "C:\\Users\\LuisAndaur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\UnitTest_TorneoPRO\\obj\\",
+      "outputPath": "D:\\TUP\\Programacion y Laboratorio ii\\tps\\tps_laboratorio_ii\\TP4\\UnitTest_TorneoPRO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\LuisAndaur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6582,8 +6577,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj": {
-              "projectPath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj"
+            "D:\\TUP\\Programacion y Laboratorio ii\\tps\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj": {
+              "projectPath": "D:\\TUP\\Programacion y Laboratorio ii\\tps\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj"
             }
           }
         }
@@ -6630,7 +6625,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1c99dc86-60bf-418a-be42-4c42de26d76c": {
+      "ProjectGuid": "1c99dc86-60bf-418a-be42-4c42de26d76c",
+      "DisplayName": "Entidades_TorneoPRO",
+      "ColorIndex": 0
+    },
+    "3bd9feff-e6cf-452b-aaea-ac8bdb9cdbf4": {
+      "ProjectGuid": "3bd9feff-e6cf-452b-aaea-ac8bdb9cdbf4",
+      "DisplayName": "Frm_TorneoPRO",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

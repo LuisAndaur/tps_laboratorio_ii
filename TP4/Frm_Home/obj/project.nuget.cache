@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JUX2GmZV4jXOIBpkIgAZPe0R6HzbKlx05L0KfQ6z9WD2U+V9pNMlCmzVP0ydlZ067Jzo2UVApKF8695mOv5WGw==",
+  "dgSpecHash": "8UiGKHSzeJmcHsXVuLpY8pB2ZDiSXBkyDT0zbEuwwG66H13EMpt7PNI9QK8G/lk60Rn3SnAV+INOt8klxhlSmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Frm_Home\\Frm_TorneoPRO.csproj",
+  "projectFilePath": "D:\\TUP\\Programacion y Laboratorio ii\\tps\\tps_laboratorio_ii\\TP4\\Frm_Home\\Frm_TorneoPRO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -41,6 +41,10 @@ namespace Frm_TorneoPRO
             Mensaje();
         }
 
+        /// <summary>
+        /// Actualiza la barra de progreso y sus valores
+        /// </summary>
+        /// <param name="valor"></param>
         private void ActualizarProgressBar(int valor)
         {
             if (this.prb_Progreso.InvokeRequired)
