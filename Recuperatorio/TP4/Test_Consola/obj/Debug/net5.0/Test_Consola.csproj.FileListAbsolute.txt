@@ -1,0 +1,88 @@
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.exe
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.deps.json
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.runtimeconfig.json
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.runtimeconfig.dev.json
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\ref\Test_Consola.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.pdb
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.AssemblyReference.cache
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.AssemblyInfo.cs
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.CopyComplete
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\ref\Test_Consola.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.pdb
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.genruntimeconfig.cache
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.exe
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.deps.json
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.runtimeconfig.json
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.runtimeconfig.dev.json
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\ref\Test_Consola.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Test_Consola.pdb
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.AssemblyReference.cache
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.AssemblyInfo.cs
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.CopyComplete
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\ref\Test_Consola.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.pdb
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Test_Consola\obj\Debug\net5.0\Test_Consola.genruntimeconfig.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.exe
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.deps.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.runtimeconfig.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.runtimeconfig.dev.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\ref\Test_Consola.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.AssemblyReference.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.AssemblyInfo.cs
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.CopyComplete
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\ref\Test_Consola.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.genruntimeconfig.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.exe
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.deps.json
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.runtimeconfig.json
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.runtimeconfig.dev.json
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\ref\Test_Consola.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Test_Consola.pdb
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.AssemblyReference.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.GeneratedMSBuildEditorConfig.editorconfig
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.AssemblyInfoInputs.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.AssemblyInfo.cs
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.CoreCompileInputs.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.csproj.CopyComplete
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\ref\Test_Consola.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.pdb
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Test_Consola\obj\Debug\net5.0\Test_Consola.genruntimeconfig.cache

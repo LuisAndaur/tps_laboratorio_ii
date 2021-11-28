@@ -1,0 +1,83 @@
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\Andaur.Luis.2E.TPFinal\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\source\repos\TorneoCSGO\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\source\repos\TP3\TorneoCSGO\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP3\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+D:\TUP\2do Cuatrimestre 2021\Programación y Laboratorio 2\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
+C:\Users\LuisAndaur\Documents\Tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.deps.json
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\bin\Debug\net5.0\Entidades_TorneoPRO.pdb
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.AssemblyReference.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.GeneratedMSBuildEditorConfig.editorconfig
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfoInputs.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.AssemblyInfo.cs
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.csproj.CoreCompileInputs.cache
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\ref\Entidades_TorneoPRO.dll
+D:\TUP\Programacion y Laboratorio ii\tps\tps_laboratorio_ii\TP4\Entidades_TorneoPRO\obj\Debug\net5.0\Entidades_TorneoPRO.pdb
