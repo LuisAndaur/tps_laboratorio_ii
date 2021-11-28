@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y0/4B4FjD/kj741rPVzoN4JyN4ns8qvkz6Tyc0YZZ3naIxH3WZUm+33m2OIe/eBf2wTMrCzkcMLbFFtnQV2O+g==",
+  "dgSpecHash": "dXwOqelMzcOzIMcyBtVuKsYiRlRdpBV7ma9DdLKDzcGqa7E5hB5df2QDy0CYtVdyB2st7ey7pSVRSAPAhJSLHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\UnitTest_TorneoPRO\\UnitTest_TorneoPRO.csproj",
+  "projectFilePath": "C:\\Users\\LuisAndaur\\Documents\\TPFINAL\\tps_laboratorio_ii\\Recuperatorio\\TP4\\UnitTest_TorneoPRO\\UnitTest_TorneoPRO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

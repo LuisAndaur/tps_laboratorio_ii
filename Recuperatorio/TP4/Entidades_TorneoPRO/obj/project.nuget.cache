@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RzG8obmsTkrLVORO+YU3/iPnjcmhVdokN5j3i/SQif7t0qhKVZ6biBYpcbjtGiofql13j4XNw9/fWqSGC1exJA==",
+  "dgSpecHash": "JIvNd0LOVEL7HDqDfAqJFzf0sA1niPPcnmrKz03i+NATVYzO5RGhjsC36SIbb22b+hSaQtjAeU0oHSXUdvat3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LuisAndaur\\Documents\\Tps\\tps_laboratorio_ii\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj",
+  "projectFilePath": "C:\\Users\\LuisAndaur\\Documents\\TPFINAL\\tps_laboratorio_ii\\Recuperatorio\\TP4\\Entidades_TorneoPRO\\Entidades_TorneoPRO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\LuisAndaur\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -135,6 +135,7 @@ namespace Entidades_TorneoPRO
             int cuerpoLatinoM = 0;
             int cuerpoNoLatinoF = 0;
             int cuerpoNoLatinoM = 0;
+            int primerTorneoSiTot = 0;
             int cuerpoT = 0;
             string formato = string.Empty;
 
@@ -192,6 +193,7 @@ namespace Entidades_TorneoPRO
             primerTorneoNoMen = male - primerTorneoSiMen;
             nacionalidadNLF = female - nacionalidadLF;
             nacionalidadNLM = male - nacionalidadLM;
+            primerTorneoSiTot = primerTorneoSiMen + primerTorneoSiFem;
 
             killsT = killsF + killsM;
             muertesT = muertesF + muertesM;
@@ -227,6 +229,16 @@ namespace Entidades_TorneoPRO
             else
                 analisis.AppendLine(String.Format("\nLos hombres ejecutan un {0,5:0.00}% más de headshots que las mujeres.", ((float)headshotsM * 100 / headshotsT) - ((float)headshotsF * 100 / headshotsT)));
 
+            if (killsF >= killsM)
+                analisis.AppendLine(String.Format("\nLas mujeres ejecutan un {0,5:0.00}% más kills que los hombres.", ((float)killsF * 100 / killsT) - ((float)killsM * 100 / killsT)));
+            else
+                analisis.AppendLine(String.Format("\nLos hombres ejecutan un {0,5:0.00}% más kills que las mujeres.", ((float)killsM * 100 / killsT) - ((float)killsF * 100 / killsT)));
+
+            if (muertesF >= muertesM)
+                analisis.AppendLine(String.Format("\nLas mujeres murieron un {0,5:0.00}% más que los hombres.", ((float)muertesF * 100 / muertesT) - ((float)muertesM * 100 / muertesT)));
+            else
+                analisis.AppendLine(String.Format("\nLos hombres murieron un {0,5:0.00}% más que las mujeres.", ((float)muertesM * 100 / muertesT) - ((float)muertesF * 100 / muertesT)));
+
             if (cuerpoLatinoM >= cuerpoNoLatinoM)
                 analisis.AppendLine(String.Format("\nLos hombres latinos prefieren el combate cuerpo a cuerpo un {0,5:0.00}% que los no latinos.", ((float)cuerpoLatinoM * 100 / cuerpoT) - ((float)cuerpoNoLatinoM * 100 / cuerpoT)));
             else
@@ -236,6 +248,11 @@ namespace Entidades_TorneoPRO
                 analisis.AppendLine(String.Format("\nParticipan un {0,5:0.00}% más de mujeres que hombres +50 años.", ((float)rangoEstarioFemTres * 100 / female) - ((float)rangoEstarioMenTres * 100 / male)));
             else
                 analisis.AppendLine(String.Format("\nParticipan un {0,5:0.00}% más de hombres que mujeres +50 años.", ((float)rangoEstarioMenTres * 100 / male) - ((float)rangoEstarioFemTres * 100 / female)));
+
+            if (primerTorneoSiFem >= primerTorneoSiMen)
+                analisis.AppendLine(String.Format("\nLas mujeres que jugaron su primer torneo son un {0,5:0.00}% más que los hombres.", ((float)primerTorneoSiFem * 100 / primerTorneoSiTot) - ((float)primerTorneoSiMen * 100 / primerTorneoSiTot)));
+            else
+                analisis.AppendLine(String.Format("\nLos hombres que jugaron su primer torneo son un {0,5:0.00}% más que las mujeres.", ((float)primerTorneoSiMen * 100 / primerTorneoSiTot) - ((float)primerTorneoSiFem * 100 / primerTorneoSiTot)));
 
             analisis.AppendLine(String.Format("\n-----------------------------------------------"));
 
